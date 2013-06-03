@@ -3,25 +3,25 @@ require_once __DIR__."/../../lib/utils.php";
 class UserTest extends PHPUnit_Framework_TestCase
 {
 	private $_object;
-    private $_id;
-    private $_login;
+    private $_username;
+    private $_message;
     protected function tearDown()
     {
-        unset($this->_id);
-        unset($this->_login);
+        unset($this->_username);
+        unset($this->_message);
         unset($this->_object);
     }
 
     protected function setUp()
     {
-        $this->_id      = "3";
-        $this->_login   = "gbecchio";
-        $this->_object  = new lib_User($this->_id, $this->_login);
+        $this->_username    = "gbecchio";
+        $this->_message     = "Ceci est une erreur";
+        $this->_object      = new lib_DocapostErrorLog();
     }
     public function testGetters()
     {
-        $this->assertEquals($this->_object->getId(), $this->_id);
-        $this->assertEquals($this->_object->getLogin(), $this->_login);
+        $this->assertTrue($this->_object->user($this->_message, $this->_username));
+        $this->assertTrue($this->_object->general($this->_message));
     }
     /*
     public static function setUpBeforeClass()

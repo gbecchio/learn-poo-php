@@ -17,4 +17,3 @@ class lib_User
 		return $this->_login;
 	}
 }
-
