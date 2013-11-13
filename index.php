@@ -1,8 +1,9 @@
 <?php
 /**
-* @author gbecchio
+* @author Gregory Becchio
 * @version 0.1
-*
-* version de production
+* @since 13/11/2013
+* production version
 */
 require_once __DIR__."/lib/utils.php";
+//
