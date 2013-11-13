@@ -1,4 +1,8 @@
 <?php
+/**
+* @author Gregory Becchio
+* @since 13/11/2013
+*/
 Class lib_ErrorLog
 {
 	//
