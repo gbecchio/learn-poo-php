@@ -78,3 +78,25 @@ echo "<br>";
 echo '$y=>';
 var_dump($y);
 
+$tab_nonvide = array(18, 19);
+$int_un = (int) $tab_nonvide;
+$tab_nonvide = array();
+$int_zero = (int) $tab_vide;
+echo $separation;
+$txt = <<<TXT
+* array vers int
+** \$tab_nonvide = array(18, 19);
+** \$int_un = (int) \$int_un; == 1
+
+* array vers int
+** \$tab_vide = array();
+** \$int_zero = (int) \$int_zero; == 0
+
+TXT;
+echo $separation;
+printf("$pre", "$txt");
+echo '$int_un=>';
+print_r($int_un);
+echo "<br>";
+echo '$int_zero=>';
+print_r($int_zero);
