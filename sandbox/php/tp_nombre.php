@@ -1,0 +1,28 @@
+<?php
+error_reporting(E_ALL);
+ini_set('error_reporting', E_ALL);
+$a = "47";
+echo $a + 11;
+echo '<br />';
+@$foo = 10;
+echo @$foo;
+echo '<br />';
+$b = &$foo;
+echo $foo;
+echo '<br />';
+echo $b;
+echo '<br />';
+echo '<br />';
+$b = 12235456456;
+echo $foo;
+echo '<br />';
+echo $b;
+echo '<br />';
+echo '<br />';
+${00} = 123456;
+echo ${00};
+echo '<br />';
+echo '<br />';
+$x = (bool)""*(int)(string) 12E-1;
+$x = (bool)""*1;
+var_dump($x.print('1'));
