@@ -1,7 +1,9 @@
 <?php
 namespace dp\strategy;
-error_reporting(E_ALL & ~E_STRICT);
-use dp\strategy\IRuleMDP;
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
+
+//include(__DIR__."/IRuleMDP.php");
+//use dp\strategy\IRuleMDP;
 /**
 * Application du pattern stragety pour vérifier
 * si le mot de passe répond à certaines règle.

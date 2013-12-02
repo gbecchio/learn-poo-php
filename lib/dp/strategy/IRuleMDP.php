@@ -1,6 +1,6 @@
 <?php
 namespace dp\strategy;
-error_reporting(E_ALL & ~E_STRICT);
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 /**
 * Application du pattern stragety pour vérifier
 * si le mot de passe répond à certaines règle.

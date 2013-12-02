@@ -1,5 +1,7 @@
 <?php
-error_reporting(E_ALL & ~E_STRICT);
+namespace dp\strategy;
+include(__DIR__."/../../../Autoload.php");
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 /**
 * Application du pattern stragety pour vérifier
 * si le mot de passe répond à certaines règle.
@@ -7,14 +9,11 @@ error_reporting(E_ALL & ~E_STRICT);
 * @since 29/11/2013
 * 
 */
-include(__DIR__."/IRuleMDP.php");
-include(__DIR__."/ObjectMDP.php");
-include(__DIR__."/CharRuleMDP.php");
-include(__DIR__."/NumberRuleMDP.php");
 use dp\strategy\ObjectMDP;
 use dp\strategy\CharRuleMDP;
 use dp\strategy\NumberRuleMDP;
-
+use sandbox\php\lib\ClasseEssai;
+//$classe_essai = new ClasseEssai();
 $str_mdp = '2a10';
 $mdp = new ObjectMDP($str_mdp);
 $mdp->setVerifRule(new CharRuleMDP());
