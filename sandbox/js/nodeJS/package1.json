@@ -1,0 +1,14 @@
+{
+    "name": "mon-app",
+    "author": "gbecchio <gbecchio@yahoo.fr>",
+    "version": "0.1.0",
+    "dependencies": {
+        "markdown": "~0.5"
+    },
+    "contributors": [ 
+    {
+      "name": "Grégory Becchio",
+      "email": "gbecchio@yahoo.fr"
+    } 
+  ],
+}

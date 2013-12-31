@@ -1,0 +1,15 @@
+<h3>Docapost-DPS nombre de PP <%= nbr_pp %></h3>
+
+<p>
+<%
+  for(var i = 1 ; i <= nbr_pp ; i++)
+  {
+%>
+<b><%= i %></b> <%= noms[(i - 1)] %><br /> 
+
+<%
+  } 
+%></p>
+<p>Le PP pour DOCAPOST-DPS est:
+<!-- %= noms % -->
+<%= noms[Math.floor(Math.random() * (noms.length + 1))] %></p>
