@@ -13,49 +13,72 @@ Ext.onDocumentReady(
         name : 'Projets La Poste',
         since : 2,
         debut : '10/20/2010',
-        projets : ['Perf RH', 'SAE Paie']
+        projets : ['Perf RH', 'SAE Paie', 'ADP']
     }];
-    var myTpl = Ext.create(
-      'Ext.XTemplate',[
+    var myTpl2 = Ext.create(
+      'Ext.XTemplate', [
         '<tpl for=".">',
           '<div style="background-color: {color}; margin: 10px;">',
             '<b> Name :</b> {name}<br />',
             '<b> Depuis :</b> {since}<br />',
             '<b> Début :</b> {debut}<br />',
             '<b> Projets :</b> {projets}<br />',
-            '<tpl for="cars">',
+            '<tpl for="projets">',
             '{.}',
             '<tpl if="this.isCamry(values)">',
-              '<b> (same car)</b>',
-              '{[ (xindex < xcount) ? ", " : "" ]}',
+              '<b> (same projet)</b>',
+              '{[ (xindex < xcount) ? " | " : "" ]}',
             '</tpl>',
-            '<br />',
+            '</tpl>',
           '</div>',
         '</tpl>',
         {
-          isCamry : function(car)
+          isCamry : function(projet)
           {
-            return car === 'Camry';
+            return projet === 'ADP';
           }
-        }
-      ]
+        }]
     );
-    myTpl.compile();
-myTpl.append(document.body, tplData);
-    myTpl.compile();
-    myTpl.append(document.body, tplData);
-    var myTpl_deux = Ext.create(
-      'Ext.XTemplate',[
+    myTpl2.compile();
+    myTpl2.append(document.body, tplData);
+    var myTpl = Ext.create(
+      'Ext.XTemplate', [
         '<tpl for=".">',
           '<div style="background-color: {color}; margin: 10px;">',
             '<b> Name :</b> {name}<br />',
             '<b> Depuis :</b> {since}<br />',
             '<b> Début :</b> {debut}<br />',
-            '<b> Projets : </b>',
           '</div>',
-        '<tpl for="projets">',
-        '{.}',
-        '<tpl if="this.isCamry(values)">',
-        '<b> (same car)</b>',
+        '</tpl>'
+        ]
+    );
+    myTpl.compile();
+    myTpl.append(document.body, tplData);
+    var panel1 = {
+      xtype : 'panel',
+      title : 'Ajout spécifique',
+      html : 'Ajouter un projet avec un type spécifique'
+    };
+    var panel2 = {
+      title : 'Ajout normal',
+      html : 'Ajouter un projet sans type'
+    };
+    Ext.create(
+      'Ext.window.Window',
+      {
+        width: 250,
+        height : 150,
+        title : 'Ajout de projets DOCPAOST-DPS',
+        border : false,
+        layout : {
+          type : 'accordion',
+          animate : true
+        },
+        items : [
+          panel1,
+          panel2
+        ]
+      }
+    ).show();
   }
 );
