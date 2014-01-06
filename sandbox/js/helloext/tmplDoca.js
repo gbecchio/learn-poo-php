@@ -80,5 +80,29 @@ Ext.onDocumentReady(
         ]
       }
     ).show();
+    var panelUn = {
+      html : 'I am Panel1',
+      id : 'panel1',
+      frame : true,
+      height : 100
+    };
+    var panelDeux = {
+      html : '<b>I am Panel2</b>',
+      id : 'panel2',
+      frame : true
+    };
+    var myWinUn = Ext.create(
+      'Ext.window.Window',
+      {
+        id : 'myWinUn',
+        height : 400,
+        width : 400,
+        items : [
+          panelUn,
+          panelDeux
+        ]
+      }
+    );
+    myWinUn.show();
   }
 );
