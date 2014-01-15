@@ -81,13 +81,13 @@ Ext.onDocumentReady(
       }
     ).show();
     var panelUn = {
-      html : 'I am Panel1',
+      html : 'SNCF',
       id : 'panel1',
       frame : true,
       height : 100
     };
     var panelDeux = {
-      html : '<b>I am Panel2</b>',
+      html : '<b>SNCF Traces</b>',
       id : 'panel2',
       frame : true
     };
@@ -101,6 +101,24 @@ Ext.onDocumentReady(
           panelUn,
           panelDeux
         ]
+      }
+    );
+    Ext.getCmp('panel2').add(
+      {
+        title : 'Login',
+        id: 'addedPanel',
+        html : 'gbecchio'
+      }
+    );
+
+
+
+    Ext.getCmp('myWinUn').insert(
+      -1,
+      {
+        title : 'Traces',
+        id: 'Traces',
+        html : '<b>id<b> => gbecchio'
       }
     );
     myWinUn.show();
