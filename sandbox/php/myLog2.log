@@ -1,1 +1,16 @@
 2014-01-15T16:52:05+01:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:23:16+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:27:16+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:27:16+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:27:38+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:27:38+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:27:50+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:27:50+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:28:20+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:28:59+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:29:51+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:30:01+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:31:15+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:31:26+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:32:37+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
+2014-01-15T22:34:21+00:00 [line 6][logger fol][class main][method main] This will be logged twice.

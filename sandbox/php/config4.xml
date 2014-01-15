@@ -5,8 +5,18 @@
         </layout>
         <param name="file" value="myLog2.log" />
     </appender>
-    <appender name="A1" class="LoggerAppenderConsole" />
-    <appender name="A2" class="LoggerAppenderConsole" />
+    <appender name="A1" class="LoggerAppenderFile">
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%date [line %line][logger %logger][class %class][method %method] %message%newline" />
+        </layout>
+        <param name="file" value="myLog3.log" />
+    </appender>
+    <appender name="A2" class="LoggerAppenderFile" >
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="[class %class][method %method] %date [line %line][logger %logger] %message%newline" />
+        </layout>
+        <param name="file" value="myLog4.log" />
+    </appender>
     <root>
         <appender_ref ref="A1" />
     </root>
