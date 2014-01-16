@@ -1,8 +1,6 @@
-2014-01-15T22:28:20+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
-2014-01-15T22:28:59+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
-2014-01-15T22:29:51+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
-2014-01-15T22:30:01+00:00 [line 6][logger fol][class main][method main] This will be logged twice.
-2014-01-15T22:36:55+00:00 INFO  foo This will be logged twice.
-2014-01-15T22:36:55+00:00 ERROR foo This will be logged twice.
-2014-01-15T22:37:52+00:00 [line 6][logger foo][class main][method main] This will be logged twice.
-2014-01-15T22:37:52+00:00 [line 7][logger foo][class main][method main] This will be logged twice.
+2014-01-16T10:27:42+01:00 [line 6][logger quatre][class main][method main] This will be logged twice.
+2014-01-16T10:27:42+01:00 [line 7][logger quatre][class main][method main] This will be logged twice.
+2014-01-16T10:27:58+01:00 [line 6][logger quatre][class main][method main] This will be logged twice.
+2014-01-16T10:27:58+01:00 [line 7][logger quatre][class main][method main] This will be logged twice.
+2014-01-16T10:32:15+01:00 [line 6][logger quatre][class main][method main] This will be logged twice.
+2014-01-16T10:32:15+01:00 [line 7][logger quatre][class main][method main] This will be logged twice.
