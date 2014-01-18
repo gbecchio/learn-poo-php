@@ -2,3 +2,5 @@
 2014-01-15T22:36:55+00:00 ERROR foo This will be logged twice.
 [class main][method main] 2014-01-15T22:37:52+00:00 [line 6][logger foo] This will be logged twice.
 [class main][method main] 2014-01-15T22:37:52+00:00 [line 7][logger foo] This will be logged twice.
+[class main][method main] 2014-01-18T14:20:29+00:00 [line 6][logger foo] This will be logged twice.
+[class main][method main] 2014-01-18T14:20:29+00:00 [line 7][logger foo] This will be logged twice.
