@@ -17,13 +17,22 @@
         </layout>
         <param name="file" value="myLog4.log" />
     </appender>
+    <appender name="A4" class="LoggerAppenderFile" >
+        <layout class="LoggerLayoutPattern">
+            <param name="conversionPattern" value="%message%newline" />
+        </layout>
+        <param name="file" value="logggggg.log" />
+    </appender>
     <root>
         <appender_ref ref="A1" />
     </root>
-     <logger name="foo">
+     <logger name="foo" additivity="false">
         <appender_ref ref="A2" />
     </logger>
     <logger name="fol">
         <appender_ref ref="myFileAppender" />
+    </logger>
+    <logger name="quatre">
+        <appender_ref ref="A4" />
     </logger>
 </configuration>
