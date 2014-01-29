@@ -1,0 +1,4 @@
+default:
+  context:
+    parameters:
+      base_url: http://localhost/poo/php/learn-poo-php/sandbox/behat/web

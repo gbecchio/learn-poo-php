@@ -1,0 +1,9 @@
+{
+  "require-dev": {
+    "behat/behat": "2.4@stable",
+    "behat/symfony2-extension": "*@stable",
+    "behat/mink-bundle": "*@stable",
+    "behat/mink-browserkit-driver": "*@stable",
+    "behat/mink-zombie-driver": "*@stable"
+  }
+}
