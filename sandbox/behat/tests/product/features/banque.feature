@@ -25,7 +25,7 @@ Fonctionnalité: posséder un compte bancaire
       | 0               | 10      | 10         |
       | 15              | 5       | 20         |
       | 35              | 5       | 40         |
-      | 123             | 10      | 133        |
+      | 12              | 10      | 22         |
  
   Scénario: Interdire les découverts
     Etant donné que je suis un client

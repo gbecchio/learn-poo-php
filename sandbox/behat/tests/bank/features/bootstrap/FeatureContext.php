@@ -96,7 +96,7 @@ class FeatureContext extends Behat\Mink\Behat\Context\MinkContext
         try
         {
             $this->_account->setBalance(50);
-            $this->_account->takeMoney(100);
+            $this->_account->takeMoney(60);
         }
         catch(\Exception $e)
         {
@@ -116,11 +116,13 @@ class FeatureContext extends Behat\Mink\Behat\Context\MinkContext
      */
     public function iAmLoggedInAs($arg1)
     {
-        return array(
-        new Step\Given('I go to "http://localhost/poo/php/learn-poo-php/sandbox/behat/web/login.php"')
-        ,new Step\When("I fill in \"My name\" with \"$username\"")
-        ,new Step\When('I press "Login"')
-    );
+        $this->getSession()->wait(300);
+        return array
+        (
+            new Step\Given('I go to "http://localhost/poo/php/learn-poo-php/sandbox/behat/web/login.php"')
+            ,new Step\When("I fill in \"username\" with \"jeanfrancois\"")
+            ,new Step\When('I press "Login"')
+        );
     }
 
     /**
@@ -128,10 +130,16 @@ class FeatureContext extends Behat\Mink\Behat\Context\MinkContext
      */
     public function iHaveEuro($arg1)
     {
-            return array(
-        new Step\Given('I go to "http://localhost/poo/php/learn-poo-php/sandbox/behat/web"')
-        , new Step\When("I fill in \"New balance\" with \"arg1\"")
-        , new Step\When('I press "Reset"')
-    );
+        $monney = (int) $arg1;
+        $this->getSession()->wait(6000);
+        return array
+        (
+            new Step\Given('I am on "http://localhost/poo/php/learn-poo-php/sandbox/behat/web/login.php"')
+            ,new Step\When("I fill in \"amount\" with \"$monney\"")
+            , new Step\When('I press "btn_101"')
+            , $this->getSession()->wait(6000)
+            new Step\Given('I am on "http://localhost/poo/php/learn-poo-php/sandbox/behat/web/login.php"')
+            
+        );
     }
 }

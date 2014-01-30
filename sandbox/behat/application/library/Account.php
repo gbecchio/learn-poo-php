@@ -37,7 +37,7 @@ class Account
     {
         if ($this->getBalance() - $amount <= 0)
         {
-            throw new \Exception("Vous ne pouvez pas être à découvert");
+            throw new \Exception("Overdrafts are not allowed");
         }
         $this->_balance -= $amount;
         return $this;

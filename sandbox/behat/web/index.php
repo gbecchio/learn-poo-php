@@ -72,7 +72,7 @@ if (filter_has_var(INPUT_POST, 'reset')) {
                         <label for="amount">Amount</label>
                         <input type="text" name="amount" id="amount"/>
                     </div>
-                    <button class="btn btn-primary">Go</button>
+                    <button class="btn btn-primary" id="btn_101">Go</button>
                 </form>
             </section>
 
