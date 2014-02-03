@@ -1,0 +1,6 @@
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url: http://localhost/poo/php/learn-poo-php/sandbox/behat/web
+            goutte: ~
+            selenium2: ~
