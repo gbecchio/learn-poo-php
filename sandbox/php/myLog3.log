@@ -1,0 +1,4 @@
+2014-03-11T09:04:24+01:00 [line 6][logger quatre][class main][method main] This will be logged twice.
+2014-03-11T09:04:25+01:00 [line 7][logger quatre][class main][method main] This will be logged twice.
+2014-03-11T18:51:38+01:00 [line 6][logger quatre][class main][method main] This will be logged twice.
+2014-03-11T18:51:38+01:00 [line 7][logger quatre][class main][method main] This will be logged twice.

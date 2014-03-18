@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<title>AFHyp - Association Fran&ccedil;aise d&acute;Hypnose</title>
+<link rel="icon" href="/images/favicon.png" type="image/png" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script language="JavaScript1.2" src="js/roll.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.Style1 {color: #B3B3B3}
+.Style2 {color: #333333}
+-->
+</style>
+</head>
+
+<body onload="MM_preloadImages('/images/news_roll.gif','/images/contacts_roll.gif','/images/formations_roll.gif','/images/liens_roll.gif','/images/accueil_roll.gif')">
+<div id="en_tete">
+   <!-- Ici on mettra la banniï¿½re -->
+</div>
+<div id="navbar">
+	
+  <img src="/images/header_g.png" width="31" height="29" /><a href="/index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Accueil','','/images/accueil_roll.gif',1)"><img src="/images/accueil.gif" alt="Accueil" name="Accueil" width="69" height="29" border="0" id="Accueil" /></a><a href="/news.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('News','','/images/news_roll.gif',1)"></a><a href="/news.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('News','','/images/news_roll.gif',1)"><img src="/images/news.gif" alt="News" name="News" width="60" height="29" border="0" id="News" /></a><a href="/annuaire_v54.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','/images/annuaire_roll.gif',1)"><img src="/images/annuaire.gif" alt="Annuaire" name="Image12" width="78" height="29" border="0" id="Image12" /></a><a href="/formations.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Formations','','/images/formations_roll.gif',1)"><img src="/images/formations.gif" alt="Formations" name="Formations" width="94" height="29" border="0" id="Formations" /></a><a href="/contacts.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Contacts','','/images/contacts_roll.gif',1)"><img src="/images/contacts.gif" alt="Contacts" name="Contacts" width="73" height="29" border="0" id="Contacts" /></a><a href="/liens.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Liens','','/images/liens_roll.gif',1)"><img src="/images/liens.gif" alt="Liens" name="Liens" width="63" height="29" border="0" id="Liens" /></a><img src="/images/header_d.png" width="321" height="29" />
+  <!-- Ici on mettra la banni&egrave;re -->
+</div>
+<div id="conteneur">
+  <div id="droite">
+    <div class="element_droite">
+    <div class="conteneurDroite">
+<p><a href="annuaire.php" target="_self"><img src="http://www.afhyp.fr/images/carte.gif" alt="Annuaire" name="Annuaire" width="68" height="79" border="0" id="Annuaire" /><br />
+</a><a href="annuaire.php">ANNUAIRE</a></a></p>
+</div>
+    
+    
+          <p>&nbsp;</p>
+    </div>
+   <div class="element_droite">
+   <div class="conteneurDroite">     
+     <p><a href="http://www.hypnodyssey.com" target="_self"><img src="http://www.afhyp.fr/images/logo_hyp.gif" alt="Hypnodyssey" name="Hypnodyssey" width="68" height="79" border="0" id="Hypnodyssey" /></a><a href="annuaire.php" target="_self"> <br />      
+       PARTENAIRE</a> </p>
+     <p>&nbsp;
+     </p>
+     <p>&nbsp;</p>
+   </div>
+     
+   </div>
+</div><div id="corps">
+  <p class="text Style2">&nbsp;</p>
+  <!-- img src="images/a_propos.gif" width="228" height="30" /-->
+<p style="color:720039;">
+<div style="color:#720039;font-size:2em;">A propos</div>
+</p>
+  <p class="text Style2">
+  L&acute;association Fran&ccedil;aise d&acute;Hypnose fut fond&eacute;e en 1994 par les docteurs Jean BECCHIO, Thierry DESMARCHELIER, Charles JOUSSELLIN et Fran&ccedil;ois RAINERI. Ces quatre praticiens furent form&eacute;s &agrave; l&acute;hypnose par le Docteur Jean GODIN au d&eacute;but des ann&eacute;es 1980. L&acute;AFHyp et donne trois objectifs prioritaires&nbsp;: </p>
+  <p class="text Style2">&#149;&nbsp; Former des praticiens pour leur permettre d&acute;int&eacute;grer l&acute;outil hypnotique dans leur pratique clinique.<br />
+    &#149;&nbsp; Promouvoir l&acute;utilisation de l&acute;hypnose dans le champ de ses applications m&eacute;dicales.<br />
+    &#149;&nbsp; D&eacute;velopper la recherche dans le domaine du fonctionnement du processus hypnotique et dans ses applications cliniques. </p>
+ <p class="text Style2">Former des praticiens pour leur permettre d&acute;int&eacute;grer l&acute;outil hypnotique dans leur pratique clinique. L&acute;AFHyp propose plusieurs types de formations. Elles sont toutes r&eacute;serv&eacute;es aux professionnels de la sant&eacute;. L&acute;AFHyp demande &agrave; tous ses &eacute;l&egrave;ves de signer la Charte d&acute;Ethique. Toutes les formations sont dipl&ocirc;mantes. Les dipl&ocirc;mes de l&acute;AFHyp sont agr&eacute;&eacute;s par l&acute;European Society of Hypnosis, l&acute;International Society of Hypnosis &nbsp; et &nbsp; la Fondation Milton Erickson (USA). L&acute;AFHyp est membre de la Conf&eacute;d&eacute;ration Francophone d&acute;Hypnose et de Th&eacute;rapies Br&egrave;ves. Les formations sont assur&eacute;es par des enseignants qui ont suivi un cursus de formation de formateurs et sont praticiens cliniciens, pratiquant l&acute;hypnose depuis plus de cinq ans. Le contenu des formations et les formateurs sont &eacute;valu&eacute;s lors de chaque session de formation. La logistique des formations est assur&eacute;e par la Soci&eacute;t&eacute; de Formation Professionnelle Agr&eacute;&eacute;e <a href="http://www.hypnodyssey.com" target="_blank">HYPNODYSSEY</a>. </p>
+ <p class="text Style2">Promouvoir l&acute;utilisation de l&acute;hypnose dans le champ de ses applications m&eacute;dicales. </p>
+  <p class="text Style2">Les membres actifs de l&acute;Afhyp animent des conf&eacute;rences et &eacute;crivent des articles, destin&eacute;es aux professionnels de la sant&eacute; pour leur faire d&eacute;couvrir la richesse de l&acute;outil hypnotique. Ils se tournent aussi vers le grand public, par des interventions m&eacute;diatiques et dans le cadre de rencontres d&acute;informations. Ils avertissent certains m&eacute;dias . lorsque des travaux novateurs sont publi&eacute;s dans le domaine de l&acute;hypnose. </p>
+  <p class="text Style2">D&eacute;velopper la recherche dans le domaine du fonctionnement du processus hypnotique et dans ses applications cliniques. </p>
+  <p class="text Style2">L&acute;AFHyp est la soci&eacute;t&eacute; fran&ccedil;aise d&acute;hypnose la plus active dans le domaine de la recherche scientifique. Elle publia en 1994 la premi&egrave;re &eacute;tude clinique fran&ccedil;aise sur l&acute;hypnose (annales de la SFMG). </p>
+  <p class="text Style2"><strong>Elle a r&eacute;alis&eacute; plusieurs &eacute;tudes cliniques et neuroradiologiques et ses membres exposent leurs travaux dans diff&eacute;rents congr&egrave;s depuis plusieurs ann&eacute;es.</strong></p>
+	<p class="Style2">&nbsp;</p>
+<p>
+<div style="color:#720039;font-size:2em;">Le Dipl&ocirc;me Universitaire d&acute;Hypnose Clinique de Paris XI</div>
+</p>
+<p class="text Style2">En 2005, l&acute;Afhyp a pr&eacute;sent&eacute; son programme au Conseil Scientifique de l&acute;Universit&eacute; Paris XI. Cette Universit&eacute; est la premi&egrave;re universit&eacute; fran&ccedil;aise dans le classement mondial des universit&eacute;s (classement de Sangha&iuml;). <a href="http://www.shanghairanking.com/ARWU2012.html" target="_blank">http://www.shanghairanking.com/ARWU2012.html</a> et nous avons du construire un solide dossier pour y faire accepter la mise en place d&acute;un enseignement diplomant d&acute;hypnose. Jean Becchio et Bruno Suarez furent les artisans de ce passionnant travail. 
+Depuis son ouverture en 2005, ce D.U. conna&icirc;t un grand succ&egrave;s. Il accueille chaque ann&eacute;e vingt &eacute;tudiants et re&ccedil;oit plus de deux cents demandes d&acute;inscriptions ces deux derni&egrave;res ann&eacute;es. Les personnes int&eacute;ress&eacute;es par ce Dipl&ocirc;me peuvent consulter les modalit&eacute;s d&acute;inscription sur ce document :
+</p>
+
+	<p class="Style2">&nbsp;</p>
+<p>
+<div style="color:#720039;font-size:2em;">Dipl&ocirc;me d&acute;Universit&eacute; - PARIS XI - Bic&egrave;tre-Orsay</div>
+</p>
+<p class="text Style2">
+<br />
+<br />
+Hypnose Clinique
+<br />
+<br />
+Directeurs de l&acute;enseignement
+<br />
+<br />
+Patrick HARDY - Professeur de M&eacute;decine - H&ocirc;pital de Bic&egrave;tre Jean BECCHIO - Praticien Consultant - H&ocirc;pital Paul Brousse
+<br />
+<br />
+Objectif de l&acute;enseignement
+<br />
+<br />
+Former des praticiens &agrave; l&acute;utilisation d&acute;un outil th&eacute;rapeutique et de communication qui facilitera leur rapport soignant- patient.`Partager un savoir-faire, des connaissances et une technique dont les r&eacute;sultats ont &eacute;t&eacute; &eacute;valu&eacute;s. Fid&egrave;les &agrave; l&acute;esprit de l&acute;Association Fran&ccedil;aise d&acute;HYPnose m&eacute;dicale, nous formons des praticiens pour leur permettre d&acute;utiliser un outil diagnostique et th&eacute;rapeutique, en accordant la priorit&eacute; &agrave; l&acute;enseignement pratique. L&acute;enseignement th&eacute;orique est donn&eacute; par des conf&eacute;renciers, &eacute;minents sp&eacute;cialistes dans le domaine de la cognition.
+<br /><br />
+Le nombre d&acute;&eacute;tudiants est limit&eacute; &agrave; vingt, avec un enseignant pour cinq &eacute;l&egrave;ves lors des exercices exp&eacute;rimentaux.
+<br /><br />
+Conditions d&acute;inscription
+<br /><br />
+Le DU est ouvert aux docteurs en m&eacute;decine, docteurs en chirurgie dentaire, psychologues cliniciens et &eacute;tudiants en m&eacute;decine ayant valid&eacute; le D4. Les postulants doivent adresser une lettre de motivation et u C.V. au secr&eacute;tariat annexe du DU ( Dr Becchio 34, rue des Guipons 94800 Villejuif 06 80 73 67 05). Apr&egrave;s &eacute;tude du dossier et entretien avec le coordinateur du DU, l&acute;&eacute;tudiant recevra le dossier universitaire d&acute;inscription.
+<br /><br />
+Organisation de l&acute;enseignement
+<br /><br />
+L&acute;enseignement est r&eacute;parti en huit modules de deux jours. Chaque module, de douze heures, se d&eacute;roule une fois par mois, le vendredi de 14 &agrave; 20 heures et le samedi de 9 &agrave; 16 heures 30. Un stage pratique en milieu hospitalier
+<br /><br />
+compl&egrave;te l&acute;enseignement. Au total, cent huit heures de cours pratiques, th&eacute;oriques et stage.
+<br /><br />
+Assiduit&eacute;.
+<br /><br />
+Une absence &agrave; deux modules est tol&eacute;r&eacute;e. Cette clause peut para&icirc;tre s&eacute;v&egrave;re, mais la non participation &agrave; trois modules &eacute;quivaudrait &agrave; perdre le tiers d&acute;un enseignement, essentiellement pratique. Emargement et &eacute;valuation de l&acute;enseignement &agrave; chaque session.
+<br /><br />
+Evaluation des connaissances et examen
+<br /><br />
+Le dipl&ocirc;me est obtenu par la participation &agrave; l&acute;ensemble des modules et au stage, la r&eacute;alisation d&acute;un m&eacute;moire et l&acute;obtention de la note de 10/20 minimum &agrave; l&acute;examen &eacute;crit et oral final.
+<br /><br />
+Droits d&acute;inscription :
+1300 &euro;uros Individuel 1500 &euro;uros entreprises
+<br /><br />
+Lieu :
+<br /><br />
+H&ocirc;pital de Bic&egrave;tre. Batiment Universitaire. Salle Bourneville.
+<br /><br />
+Dates :
+<br /><br />
+08 et 09/11/2013 - 29 et 30/11/2013 - 13 et 14/12/13 - 17 et 18/01/2014 - 14 et 15/02/2014 - 14 et 15/03/2014 - 18 et 19/04/2014 - 16 et 17/05/2014 -
+<br /><br />
+Examen : Vendredi 06 juin 2014 
+</p>
+</p>
+
+  <p class="Style2">&nbsp;</p>
+  <!-- img src="images/presentation_site.gif" width="175" height="25" /-->
+	<p>
+<div style="color:#720039;font-size:2em;">Pr&eacute;sentation du site</div>
+</p>
+  <p class="text Style2">La fonction de ce site AFHYP.FR est quintuple&nbsp;: </p>
+ <p class="text Style2">Donner des informations sur l&acute;hypnose, utiles pour les professionnels de sant&eacute; &nbsp; et aussi des informations grand public. La Newslette r remplira cette fonction. </p>
+  <p class="text Style2">Publier r&eacute;guli&egrave;rement la Lettre des Amis de l&acute;Afhyp pour donner les informations sur la vie de l&acute;association&nbsp;: congr&egrave;s, formations, publications. </p>
+  <p class="text Style2">Exposer un Annuaire dont les praticiens ont &eacute;t&eacute; s&eacute;lectionn&eacute;s sur des crit&egrave;res particuli&egrave;rement s&eacute;lectifs&nbsp;: type et dur&eacute;e de formation, supervision. </p>
+ <p class="text Style2">Cr&eacute;er des liens vers les sites donnant des informations &nbsp; cr&eacute;dibles sur l&acute;hypnose. </p>
+  <p class="text Style2"><strong>Exposer</strong> <strong>des textes  &eacute;crits par nos membres. Ces textes peuvent &ecirc;tre des anecdotes cliniques, des r&eacute;sum&eacute;s de travaux ou des r&eacute;flexions sur le sujet qui nous passionne&nbsp;: L&acute;hypnose. </strong></p>
+<p class="text Style1">&nbsp;</p>
+  </div>
+  <div class="Style1" id="pied_de_page"></div>
+</div>
+
+
+</div>
+</body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<title>AFHyp - Association Fran&ccedil;aise d&acute;Hypnose</title>
+<link rel="icon" href="/images/favicon.png" type="image/png" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script language="JavaScript1.2" src="js/roll.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.Style1 {color: #B3B3B3}
+.Style2 {color: #333333}
+-->
+</style>
+</head>
+
+<body onload="MM_preloadImages('/images/news_roll.gif','/images/contacts_roll.gif','/images/formations_roll.gif','/images/liens_roll.gif','/images/accueil_roll.gif')">
+<div id="en_tete">
+   <!-- Ici on mettra la banniï¿½re -->
+</div>
+<div id="navbar">
+	
+  <img src="/images/header_g.png" width="31" height="29" /><a href="/index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Accueil','','/images/accueil_roll.gif',1)"><img src="/images/accueil.gif" alt="Accueil" name="Accueil" width="69" height="29" border="0" id="Accueil" /></a><a href="/news.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('News','','/images/news_roll.gif',1)"></a><a href="/news.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('News','','/images/news_roll.gif',1)"><img src="/images/news.gif" alt="News" name="News" width="60" height="29" border="0" id="News" /></a><a href="/annuaire_v54.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','/images/annuaire_roll.gif',1)"><img src="/images/annuaire.gif" alt="Annuaire" name="Image12" width="78" height="29" border="0" id="Image12" /></a><a href="/formations.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Formations','','/images/formations_roll.gif',1)"><img src="/images/formations.gif" alt="Formations" name="Formations" width="94" height="29" border="0" id="Formations" /></a><a href="/contacts.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Contacts','','/images/contacts_roll.gif',1)"><img src="/images/contacts.gif" alt="Contacts" name="Contacts" width="73" height="29" border="0" id="Contacts" /></a><a href="/liens.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Liens','','/images/liens_roll.gif',1)"><img src="/images/liens.gif" alt="Liens" name="Liens" width="63" height="29" border="0" id="Liens" /></a><img src="/images/header_d.png" width="321" height="29" />
+  <!-- Ici on mettra la banni&egrave;re -->
+</div>
+<div id="conteneur">
+  <div id="droite">
+    <div class="element_droite">
+    <div class="conteneurDroite">
+<p><a href="annuaire.php" target="_self"><img src="http://www.afhyp.fr/images/carte.gif" alt="Annuaire" name="Annuaire" width="68" height="79" border="0" id="Annuaire" /><br />
+</a><a href="annuaire.php">ANNUAIRE</a></a></p>
+</div>
+    
+    
+          <p>&nbsp;</p>
+    </div>
+   <div class="element_droite">
+   <div class="conteneurDroite">     
+     <p><a href="http://www.hypnodyssey.com" target="_self"><img src="http://www.afhyp.fr/images/logo_hyp.gif" alt="Hypnodyssey" name="Hypnodyssey" width="68" height="79" border="0" id="Hypnodyssey" /></a><a href="annuaire.php" target="_self"> <br />      
+       PARTENAIRE</a> </p>
+     <p>&nbsp;
+     </p>
+     <p>&nbsp;</p>
+   </div>
+     
+   </div>
+</div><div id="corps">
+  <p class="text Style2">&nbsp;</p>
+  <!-- img src="images/a_propos.gif" width="228" height="30" /-->
+<p style="color:720039;">
+<div style="color:#720039;font-size:2em;">A propos</div>
+</p>
+  <p class="text Style2">
+  L&acute;association Fran&ccedil;aise d&acute;Hypnose fut fond&eacute;e en 1994 par les docteurs Jean BECCHIO, Thierry DESMARCHELIER, Charles JOUSSELLIN et Fran&ccedil;ois RAINERI. Ces quatre praticiens furent form&eacute;s &agrave; l&acute;hypnose par le Docteur Jean GODIN au d&eacute;but des ann&eacute;es 1980. L&acute;AFHyp et donne trois objectifs prioritaires&nbsp;: </p>
+  <p class="text Style2">&#149;&nbsp; Former des praticiens pour leur permettre d&acute;int&eacute;grer l&acute;outil hypnotique dans leur pratique clinique.<br />
+    &#149;&nbsp; Promouvoir l&acute;utilisation de l&acute;hypnose dans le champ de ses applications m&eacute;dicales.<br />
+    &#149;&nbsp; D&eacute;velopper la recherche dans le domaine du fonctionnement du processus hypnotique et dans ses applications cliniques. </p>
+ <p class="text Style2">Former des praticiens pour leur permettre d&acute;int&eacute;grer l&acute;outil hypnotique dans leur pratique clinique. L&acute;AFHyp propose plusieurs types de formations. Elles sont toutes r&eacute;serv&eacute;es aux professionnels de la sant&eacute;. L&acute;AFHyp demande &agrave; tous ses &eacute;l&egrave;ves de signer la Charte d&acute;Ethique. Toutes les formations sont dipl&ocirc;mantes. Les dipl&ocirc;mes de l&acute;AFHyp sont agr&eacute;&eacute;s par l&acute;European Society of Hypnosis, l&acute;International Society of Hypnosis &nbsp; et &nbsp; la Fondation Milton Erickson (USA). L&acute;AFHyp est membre de la Conf&eacute;d&eacute;ration Francophone d&acute;Hypnose et de Th&eacute;rapies Br&egrave;ves. Les formations sont assur&eacute;es par des enseignants qui ont suivi un cursus de formation de formateurs et sont praticiens cliniciens, pratiquant l&acute;hypnose depuis plus de cinq ans. Le contenu des formations et les formateurs sont &eacute;valu&eacute;s lors de chaque session de formation. La logistique des formations est assur&eacute;e par la Soci&eacute;t&eacute; de Formation Professionnelle Agr&eacute;&eacute;e <a href="http://www.hypnodyssey.com" target="_blank">HYPNODYSSEY</a>. </p>
+ <p class="text Style2">Promouvoir l&acute;utilisation de l&acute;hypnose dans le champ de ses applications m&eacute;dicales. </p>
+  <p class="text Style2">Les membres actifs de l&acute;Afhyp animent des conf&eacute;rences et &eacute;crivent des articles, destin&eacute;es aux professionnels de la sant&eacute; pour leur faire d&eacute;couvrir la richesse de l&acute;outil hypnotique. Ils se tournent aussi vers le grand public, par des interventions m&eacute;diatiques et dans le cadre de rencontres d&acute;informations. Ils avertissent certains m&eacute;dias . lorsque des travaux novateurs sont publi&eacute;s dans le domaine de l&acute;hypnose. </p>
+  <p class="text Style2">D&eacute;velopper la recherche dans le domaine du fonctionnement du processus hypnotique et dans ses applications cliniques. </p>
+  <p class="text Style2">L&acute;AFHyp est la soci&eacute;t&eacute; fran&ccedil;aise d&acute;hypnose la plus active dans le domaine de la recherche scientifique. Elle publia en 1994 la premi&egrave;re &eacute;tude clinique fran&ccedil;aise sur l&acute;hypnose (annales de la SFMG). </p>
+  <p class="text Style2"><strong>Elle a r&eacute;alis&eacute; plusieurs &eacute;tudes cliniques et neuroradiologiques et ses membres exposent leurs travaux dans diff&eacute;rents congr&egrave;s depuis plusieurs ann&eacute;es.</strong></p>
+	<p class="Style2">&nbsp;</p>
+<p>
+<div style="color:#720039;font-size:2em;">Le Dipl&ocirc;me Universitaire d&acute;Hypnose Clinique de Paris XI</div>
+</p>
+<p class="text Style2">En 2005, l&acute;Afhyp a pr&eacute;sent&eacute; son programme au Conseil Scientifique de l&acute;Universit&eacute; Paris XI. Cette Universit&eacute; est la premi&egrave;re universit&eacute; fran&ccedil;aise dans le classement mondial des universit&eacute;s (classement de Sangha&iuml;). <a href="http://www.shanghairanking.com/ARWU2012.html" target="_blank">http://www.shanghairanking.com/ARWU2012.html</a> et nous avons du construire un solide dossier pour y faire accepter la mise en place d&acute;un enseignement diplomant d&acute;hypnose. Jean Becchio et Bruno Suarez furent les artisans de ce passionnant travail. 
+Depuis son ouverture en 2005, ce D.U. conna&icirc;t un grand succ&egrave;s. Il accueille chaque ann&eacute;e vingt &eacute;tudiants et re&ccedil;oit plus de deux cents demandes d&acute;inscriptions ces deux derni&egrave;res ann&eacute;es. Les personnes int&eacute;ress&eacute;es par ce Dipl&ocirc;me peuvent consulter les modalit&eacute;s d&acute;inscription sur ce document :
+</p>
+
+	<p class="Style2">&nbsp;</p>
+<p>
+<div style="color:#720039;font-size:2em;">Dipl&ocirc;me d&acute;Universit&eacute; - PARIS XI - Bic&egrave;tre-Orsay</div>
+</p>
+<p class="text Style2">
+<br />
+<br />
+Hypnose Clinique
+<br />
+<br />
+Directeurs de l&acute;enseignement
+<br />
+<br />
+Patrick HARDY - Professeur de M&eacute;decine - H&ocirc;pital de Bic&egrave;tre Jean BECCHIO - Praticien Consultant - H&ocirc;pital Paul Brousse
+<br />
+<br />
+Objectif de l&acute;enseignement
+<br />
+<br />
+Former des praticiens &agrave; l&acute;utilisation d&acute;un outil th&eacute;rapeutique et de communication qui facilitera leur rapport soignant- patient.`Partager un savoir-faire, des connaissances et une technique dont les r&eacute;sultats ont &eacute;t&eacute; &eacute;valu&eacute;s. Fid&egrave;les &agrave; l&acute;esprit de l&acute;Association Fran&ccedil;aise d&acute;HYPnose m&eacute;dicale, nous formons des praticiens pour leur permettre d&acute;utiliser un outil diagnostique et th&eacute;rapeutique, en accordant la priorit&eacute; &agrave; l&acute;enseignement pratique. L&acute;enseignement th&eacute;orique est donn&eacute; par des conf&eacute;renciers, &eacute;minents sp&eacute;cialistes dans le domaine de la cognition.
+<br /><br />
+Le nombre d&acute;&eacute;tudiants est limit&eacute; &agrave; vingt, avec un enseignant pour cinq &eacute;l&egrave;ves lors des exercices exp&eacute;rimentaux.
+<br /><br />
+Conditions d&acute;inscription
+<br /><br />
+Le DU est ouvert aux docteurs en m&eacute;decine, docteurs en chirurgie dentaire, psychologues cliniciens et &eacute;tudiants en m&eacute;decine ayant valid&eacute; le D4. Les postulants doivent adresser une lettre de motivation et u C.V. au secr&eacute;tariat annexe du DU ( Dr Becchio 34, rue des Guipons 94800 Villejuif 06 80 73 67 05). Apr&egrave;s &eacute;tude du dossier et entretien avec le coordinateur du DU, l&acute;&eacute;tudiant recevra le dossier universitaire d&acute;inscription.
+<br /><br />
+Organisation de l&acute;enseignement
+<br /><br />
+L&acute;enseignement est r&eacute;parti en huit modules de deux jours. Chaque module, de douze heures, se d&eacute;roule une fois par mois, le vendredi de 14 &agrave; 20 heures et le samedi de 9 &agrave; 16 heures 30. Un stage pratique en milieu hospitalier
+<br /><br />
+compl&egrave;te l&acute;enseignement. Au total, cent huit heures de cours pratiques, th&eacute;oriques et stage.
+<br /><br />
+Assiduit&eacute;.
+<br /><br />
+Une absence &agrave; deux modules est tol&eacute;r&eacute;e. Cette clause peut para&icirc;tre s&eacute;v&egrave;re, mais la non participation &agrave; trois modules &eacute;quivaudrait &agrave; perdre le tiers d&acute;un enseignement, essentiellement pratique. Emargement et &eacute;valuation de l&acute;enseignement &agrave; chaque session.
+<br /><br />
+Evaluation des connaissances et examen
+<br /><br />
+Le dipl&ocirc;me est obtenu par la participation &agrave; l&acute;ensemble des modules et au stage, la r&eacute;alisation d&acute;un m&eacute;moire et l&acute;obtention de la note de 10/20 minimum &agrave; l&acute;examen &eacute;crit et oral final.
+<br /><br />
+Droits d&acute;inscription :
+1300 &euro;uros Individuel 1500 &euro;uros entreprises
+<br /><br />
+Lieu :
+<br /><br />
+H&ocirc;pital de Bic&egrave;tre. Batiment Universitaire. Salle Bourneville.
+<br /><br />
+Dates :
+<br /><br />
+08 et 09/11/2013 - 29 et 30/11/2013 - 13 et 14/12/13 - 17 et 18/01/2014 - 14 et 15/02/2014 - 14 et 15/03/2014 - 18 et 19/04/2014 - 16 et 17/05/2014 -
+<br /><br />
+Examen : Vendredi 06 juin 2014 
+</p>
+</p>
+
+  <p class="Style2">&nbsp;</p>
+  <!-- img src="images/presentation_site.gif" width="175" height="25" /-->
+	<p>
+<div style="color:#720039;font-size:2em;">Pr&eacute;sentation du site</div>
+</p>
+  <p class="text Style2">La fonction de ce site AFHYP.FR est quintuple&nbsp;: </p>
+ <p class="text Style2">Donner des informations sur l&acute;hypnose, utiles pour les professionnels de sant&eacute; &nbsp; et aussi des informations grand public. La Newslette r remplira cette fonction. </p>
+  <p class="text Style2">Publier r&eacute;guli&egrave;rement la Lettre des Amis de l&acute;Afhyp pour donner les informations sur la vie de l&acute;association&nbsp;: congr&egrave;s, formations, publications. </p>
+  <p class="text Style2">Exposer un Annuaire dont les praticiens ont &eacute;t&eacute; s&eacute;lectionn&eacute;s sur des crit&egrave;res particuli&egrave;rement s&eacute;lectifs&nbsp;: type et dur&eacute;e de formation, supervision. </p>
+ <p class="text Style2">Cr&eacute;er des liens vers les sites donnant des informations &nbsp; cr&eacute;dibles sur l&acute;hypnose. </p>
+  <p class="text Style2"><strong>Exposer</strong> <strong>des textes  &eacute;crits par nos membres. Ces textes peuvent &ecirc;tre des anecdotes cliniques, des r&eacute;sum&eacute;s de travaux ou des r&eacute;flexions sur le sujet qui nous passionne&nbsp;: L&acute;hypnose. </strong></p>
+<p class="text Style1">&nbsp;</p>
+  </div>
+  <div class="Style1" id="pied_de_page"></div>
+</div>
+
+
+</div>
+</body>
+</html>
