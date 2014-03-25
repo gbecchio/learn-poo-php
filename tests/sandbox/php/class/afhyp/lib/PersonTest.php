@@ -5,8 +5,10 @@ class PersonTest extends PHPUnit_Framework_TestCase
 	private $_object;
     private $_perso1;
     private $_perso2;
+    private $_perso3;
     private $_donnees1;
     private $_donnees2;
+    private $_donnees3;
     protected function tearDown()
     {
         unset($this->_object);
@@ -14,6 +16,8 @@ class PersonTest extends PHPUnit_Framework_TestCase
         unset($this->_donnees1);
         unset($this->_perso2);
         unset($this->_donnees2);
+        unset($this->_perso3);
+        unset($this->_donnees3);
     }
 
     protected function setUp()
@@ -28,8 +32,17 @@ class PersonTest extends PHPUnit_Framework_TestCase
             'nom' => "franck",
             'degats' => 0
         );
+        $this->_donnees3 = array(
+            'id' => 1,
+            'nom' => "luc",
+            'degats' => 0,
+            'atout' => 4,
+            'timeEndormi' => 0,
+            'type' => 'guerrier'
+        );
         $this->_perso1 = new Person($this->_donnees1);
         $this->_perso2 = new Person($this->_donnees2);
+        $this->_perso3 = new Person($this->_donnees3);
     }
     public function testFrapper()
     {
@@ -86,5 +99,39 @@ class PersonTest extends PHPUnit_Framework_TestCase
     {
         $this->_perso2->setNom("Frank");
         $this->assertEquals($this->_perso2->nom(), "Frank");      
+    }
+    public function testEstEndormi()
+    {
+        $t = time() + ( $this->_perso3->atout() * 6 * 3600);
+        $this->_perso3->setTimeEndormi($t);
+        $this->assertTrue($this->_perso3->estEndormi());
+        $t = time() + ( 0 );
+        $this->_perso3->setTimeEndormi($t);
+        $this->assertNotTrue($this->_perso3->estEndormi());
+    }
+    public function testNomValide()
+    {
+        $this->assertTrue($this->_perso1->nomValide());
+    }
+    public function testReveil()
+    {
+        $this->_perso3->setTimeEndormi(time() + ( $this->_perso3->atout() * 6 * 3600));
+        $this->assertEquals($this->_perso3->reveil(), '24heures, 0 minute et 0 seconde');
+    }
+    public function testSetAndAtout()
+    {
+        $this->assertEquals($this->_perso3->atout(), 4);
+        $this->_perso3->setAtout(3);
+        $this->assertEquals($this->_perso3->atout(), 3);
+    }
+    public function testSetAndTimeEndormi()
+    {
+        $t = time() + ( $this->_perso3->atout() * 6 * 3600);
+        $this->_perso3->setTimeEndormi($t);
+        $this->assertEquals($this->_perso3->timeEndormi(), $t);
+    }
+    public function testType()
+    {
+        $this->assertEquals($this->_perso3->type(), "person");
     }
 }

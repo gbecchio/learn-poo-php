@@ -14,7 +14,8 @@ class PersonManager
 INSERT INTO 
 	{$this->_table_personne}
 SET
-	nom 		= :nom
+	nom 		= :nom,
+	type 		= :type
 ;
 
 EOT;
@@ -23,8 +24,9 @@ EOT;
 		{
 			$q = $this->_db->prepare($sql);
 			$q->bindValue(':nom', $perso->nom());
+			$q->bindValue(':type', $perso->type());
 			$q->execute();
-			$perso->hydrate(array('id' => $this->_db->lastInsertId(), 'degats' => 0));
+			$perso->hydrate(array('id' => $this->_db->lastInsertId(), 'degats' => 0, 'atout' => 0));
 		}
 		catch(PDOException $e)
 		{
@@ -66,7 +68,10 @@ EOT;
 SELECT
 	id,
 	nom,
-	degats
+	degats,
+	timeEndormi,
+	type,
+	atout
 FROM
 	{$this->_table_personne}
 WHERE
@@ -78,8 +83,7 @@ EOT;
 			try
 			{
 				$q = $this->_db->query($sql);
-				$donnees = $q->fetch(PDO::FETCH_ASSOC);
-				return new Person($donnees);
+				$perso = $q->fetch(PDO::FETCH_ASSOC);
 			}
 			catch(PDOException $e)
 			{
@@ -92,7 +96,10 @@ EOT;
 SELECT
 	id,
 	nom,
-	degats
+	degats,
+	timeEndormi,
+	type,
+	atout
 FROM
 	{$this->_table_personne}
 WHERE
@@ -105,13 +112,21 @@ EOT;
 			{
 				$q = $this->_db->prepare($sql);
 				$z = $q->execute(array(":nom" => $info));
-				$data = $q->fetch(PDO::FETCH_ASSOC);
-				return new Person($data);
+				$perso = $q->fetch(PDO::FETCH_ASSOC);
 			}
 			catch(PDOException $e)
 			{
 	    		echo 'Connection failed: ' . $e->getMessage();
 			}
+		}
+		switch ($perso['type'])
+		{
+			case 'guerrier' : return new Guerrier($perso);
+				break;
+			case 'magicien' : return new Magicien($perso);
+				break;
+			default:
+				return null;
 		}
 	}
 	public function getList($nom)
@@ -121,7 +136,10 @@ EOT;
 SELECT
 	id,
 	nom,
-	degats
+	degats,
+	timeEndormi,
+	type,
+	atout
 FROM
 	{$this->_table_personne}
 WHERE
@@ -137,7 +155,13 @@ EOT;
 			$q->execute(array(':nom' => $nom));
 			while($donnees = $q->fetch(PDO::FETCH_ASSOC))
 			{
-				$persos[] = new Person($donnees);
+				switch ($donnees['type'])
+				{
+					case 'guerrier' : $persos[] = new Guerrier($donnees);
+						break;
+					case 'magicien' : $persos[] = new Magicien($donnees);
+						break;
+				}
 			}
 		}
 		catch(PDOException $e)
@@ -152,7 +176,9 @@ EOT;
 UPDATE 
 	{$this->_table_personne}
 SET
-	degats = :degats
+	degats = :degats,
+	timeEndormi = :timeEndormi,
+	atout = :atout
 WHERE
 	id = :id
 ;
@@ -163,6 +189,8 @@ EOT;
 		{
 			$q = $this->_db->prepare($sql);
 			$q->bindValue(':degats', $perso->degats(), PDO::PARAM_INT);
+			$q->bindValue(':timeEndormi', $perso->timeEndormi(), PDO::PARAM_INT);
+			$q->bindValue(':atout', $perso->atout(), PDO::PARAM_INT);
 			$q->bindValue(':id', $perso->id(), PDO::PARAM_INT);
 			$q->execute();
 		}

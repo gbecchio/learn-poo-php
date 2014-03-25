@@ -1,6 +1,8 @@
 <?php
 require_once __DIR__."/../../../../../../sandbox/php/class/afhyp/lib/PersonManager.class.php";
 require_once __DIR__."/../../../../../../sandbox/php/class/afhyp/lib/Person.class.php";
+require_once __DIR__."/../../../../../../sandbox/php/class/afhyp/lib/Guerrier.class.php";
+require_once __DIR__."/../../../../../../sandbox/php/class/afhyp/lib/Magicien.class.php";
 class PersonManagerTest extends PHPUnit_Framework_TestCase
 {
 	private $_object;
@@ -45,29 +47,47 @@ class PersonManagerTest extends PHPUnit_Framework_TestCase
         $this->_table3 = array("greg", "frank");
         $this->_donnees1 = array(
             'nom' => "greg",
-            'degats' => 0
+            'degats' => 0,
+            'atout' => 25,
+            'timeEndormi' => 0,
+            'type' => "magicien",
+            'id' => 1
         );
         $this->_donnees2 = array(
-            'nom' => "franck",
-            'degats' => 0
+            'nom' => "frank",
+            'degats' => 0,
+            'atout' => 25,
+            'timeEndormi' => 0,
+            'type' => "guerrier",
+            'id' => 2
         );
         $this->_donnees3 = array(
-            'nom' => "mark",
-            'degats' => 0
+            'nom' => "maurice",
+            'degats' => 0,
+            'atout' => 25,
+            'timeEndormi' => 0,
+            'type' => "guerrier",
+            'id' => 3
         );
         $this->_updateVal = array(
-            'nom' => 'greg',
-            'degats' => '25',
-            'id' => '1'
+            'nom' => "maurice",
+            'degats' => 25,
+            'atout' => 25,
+            'timeEndormi' => 0,
+            'type' => "magicien",
+            'id' => 1
         );
-        $this->_perso1 = new Person($this->_donnees1);
-        $this->_perso2 = new Person($this->_donnees2);
-        $this->_perso3 = new Person($this->_donnees3);
+        $this->_perso1 = new Magicien($this->_donnees1);
+        $this->_perso2 = new Guerrier($this->_donnees2);
+        $this->_perso3 = new Guerrier($this->_donnees3);
         $this->_db = new PDO('mysql:host=localhost;dbname=afhyp', 'root', 'greg');
         $req = $this->_db->exec("CREATE TABLE IF NOT EXISTS personTest (
                 id int(11) unsigned NOT NULL AUTO_INCREMENT,
                 nom varchar(255) NOT NULL,
                 degats tinyint(3) unsigned NOT NULL DEFAULT '0',
+                timeEndormi int(10) unsigned NOT NULL DEFAULT '0',
+                type enum('magicien', 'guerrier') COLLATE latin1_general_ci NOT NULL,
+                atout tinyint(3) unsigned NOT NULL DEFAULT '0',
                 PRIMARY KEY (id),
                 UNIQUE KEY nom (nom)
             )engine=innodb;"

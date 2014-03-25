@@ -1,25 +1,41 @@
 <?php
 class Person
 {
-	private $_id;
-	private $_nom;
-	private $_degats;
+	protected $_id;
+	protected $_nom;
+	protected $_degats;
+	protected $_atout;
+	protected $_timeEndormi;
+	protected $_type;
 	
 	const CEST_MOI = 1;
 	const PERSON_TUE = 2;
 	const PERSON_FRAPPE = 3;
+	const PERSON_ENSORCELE = 4;
+	const PAS_DE_MAGIE = 5;
+	const PERSO_ENDORMI = 6;
 
 	function __construct(array $donnees)
 	{
 		$this->hydrate($donnees);
+		$this->_type = strtolower(get_class($this));
 	}
+	public function estEndormi()
+	{
+		return $this->_timeEndormi > time();
+	}
+
 	public function frapper(Person $perso)
 	{
 		if($perso->id() == $this->_id)
 		{
 			return self::CEST_MOI;
 		}
-		return $perso->recevoirDegats();
+		if($this->estEndormi())
+		{
+			return self::PERSO_ENDORMI;
+		}
+		return $perso->recevoirDegats(5);
 	}
 	public function hydrate(array $donnes)
 	{
@@ -32,7 +48,7 @@ class Person
 			}
 		}
 	}
-	public function recevoirDegats()
+	public function recevoirDegats($force = NULL)
 	{
 		$this->_degats += 5;
 		if($this->_degats >= 100)
@@ -40,6 +56,26 @@ class Person
 			return self::PERSON_TUE;
 		}
 		return self::PERSON_FRAPPE;
+	}
+	public function reveil()
+	{
+		$secondes = $this->_timeEndormi;
+		$secondes -= time();
+		
+		$heures = floor($secondes / 3600);
+		$secondes -= $heures * 3600;
+		$minutes = floor($secondes / 60);
+		$secondes -= $minutes * 60;
+
+		$heures .= $heures <= 1 ? ' heure' : 'heures';
+		$minutes .= $minutes <= 1 ? ' minute' : 'minutes';
+		$secondes .= $secondes <= 1 ? ' seconde' : 'secondes';
+
+		return $heures . ', '.$minutes.' et '.$secondes;
+	}
+	public function atout()
+	{
+		return $this->_atout;
 	}
 	public function degats()
 	{
@@ -52,6 +88,22 @@ class Person
 	public function nom()
 	{
 		return $this->_nom;
+	}
+	public function timeEndormi()
+	{
+		return $this->_timeEndormi;
+	}
+	public function type()
+	{
+		return $this->_type;
+	}
+	public function setAtout($atout)
+	{
+		$atout = (int) $atout;
+		if($atout >= 0 && $atout <= 100)
+		{
+			$this->_atout = $atout;
+		}
 	}
 	public function setDegats($degats)
 	{
@@ -75,5 +127,13 @@ class Person
 		{
 			$this->_nom = $nom;
 		}
+	}
+	public function setTimeEndormi($time)
+	{
+		$this->_timeEndormi = (int) $time;
+	}
+	public function nomValide()
+	{
+		return !empty($this->_nom);
 	}
 }
