@@ -1,6 +1,7 @@
 <?php
 class Person
 {
+	private $tata;
 	protected $_id;
 	protected $_nom;
 	protected $_degats;
@@ -135,5 +136,35 @@ class Person
 	public function nomValide()
 	{
 		return !empty($this->_nom);
+	}
+	public function __set($nom, $valeur)
+	{
+		echo "impossible d'utiliser ".$nom." avec la valeur ".$valeur;
+	}
+	public function __get($nom)
+	{
+		echo "impossible d'accèder à l'attribut ".$nom;
+	}
+	public function __unset($nom)
+	{
+		echo "cette variable ne peut pas être détruite ".$nom;
+	}
+	public function __call($nom, $args)
+	{
+		echo "impossible d'appeler la methode ".$nom;
+		echo "<br />";
+		echo "qui a pour arguments ";
+		var_dump($args);
+	}
+	public static function __callStatic($nom, $args)
+	{
+		echo "impossible d'appeler la methode statique ".$nom;
+		echo "<br />";
+		echo "qui a pour arguments ";
+		var_dump($args);
+	}
+	public function __destruct()
+	{
+		unset($this->_id);
 	}
 }

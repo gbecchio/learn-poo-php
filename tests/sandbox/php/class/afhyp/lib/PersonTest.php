@@ -132,6 +132,23 @@ class PersonTest extends PHPUnit_Framework_TestCase
     }
     public function testType()
     {
+        //$this->_perso1->tataa = 10;
+        //unset($this->_perso1->tataaa);
+        //$this->_perso1->cool("tien","donc");
+        //Magicien::coolle("tienn","donccc");
+        
         $this->assertEquals($this->_perso3->type(), "person");
+        $var = null; 
+        var_dump(empty($var));echo "null";
+$var = ''; var_dump(empty($var));
+$var = false; echo $var+1;
+$var = true; echo ($var+1);
+var_dump(TRUE);
     }
+}
+$var = '';
+
+// Ceci est vrai, alors le texte est affiché
+if (!empty($var)) {
+    echo 'Cette variable existe, donc je peux l\'afficher.';
 }

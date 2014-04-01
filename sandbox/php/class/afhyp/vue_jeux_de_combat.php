@@ -242,3 +242,26 @@ if(isset($perso))
 {
 	$_SESSION['perso'] = $perso;
 }
+$array = array(
+	'0.0',
+	'rien',
+	'coute 0.2',
+	'tout',
+	'125.232',
+	456.890
+);
+$fl_array = preg_grep("/^(\d+)?\.\d+$/", $array, 2);
+var_dump($fl_array);
+var_dump(PREG_GREP_INVERT);
+preg_match('/([a]?:\D+|<\d+>)*[!?]/', 'foobar foobar foobar');
+
+if (preg_last_error() == PREG_BACKTRACK_LIMIT_ERROR) {
+    print 'Backtrack limit was exhausted!';
+}
+$subject = "deff";
+$pattern = '/^def/';
+echo "<pre>";
+preg_match($pattern, $subject, $matches);//, PREG_OFFSET_CAPTURE);
+print_r($matches);
+preg_match($pattern, $subject, $matches, PREG_OFFSET_CAPTURE);
+print_r($matches);
