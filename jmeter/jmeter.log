@@ -1,0 +1,77 @@
+2014/04/07 22:03:22 INFO  - jmeter.util.JMeterUtils: Setting Locale to fr_FR 
+2014/04/07 22:03:22 INFO  - jmeter.util.JMeterUtils: Could not find resources for 'fr_FR', using 'fr' 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: Copyright (c) 1998-2012 The Apache Software Foundation 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: Version 2.8.20130705 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: java.version=1.7.0_51 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) Client VM 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: os.name=Linux 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: os.arch=i386 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: os.version=3.11.0-19-generic 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: Default Locale=français (France) 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: JMeter  Locale=français (France) 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: JMeterHome=/usr/share/jmeter 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: user.dir  =/var/www/learn-poo-php/jmeter 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: PWD       =/var/www/learn-poo-php/jmeter 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: IP: 127.0.1.1 Name: greg-VirtualBox FullName: greg-VirtualBox 
+2014/04/07 22:03:22 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2014/04/07 22:03:25 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform, System] 
+2014/04/07 22:03:26 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2014/04/07 22:03:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: No response parsers defined: text/html only will be scanned for embedded resources 
+2014/04/07 22:03:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Reuse SSL session context on subsequent iterations: true 
+2014/04/07 22:03:28 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are END times 
+2014/04/07 22:03:28 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2014/04/07 22:03:28 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2014/04/07 22:03:28 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2014/04/07 22:03:38 INFO  - jmeter.services.FileServer: Default base='/var/www/learn-poo-php/jmeter' 
+2014/04/07 22:03:38 INFO  - jmeter.services.FileServer: Set new base='/var/www/learn-poo-php/jmeter' 
+2014/04/07 22:03:39 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2014/04/07 22:03:39 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2014/04/07 22:03:39 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1382180 
+2014/04/07 22:03:39 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.3 
+2014/04/07 22:03:39 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2014/04/07 22:03:39 INFO  - jmeter.gui.action.RemoteStart: Initialising remote engine: localhost 
+2014/04/07 22:03:39 ERROR - jmeter.gui.action.RemoteStart: Failed to initialise remote engine java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connexion refusée
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:216)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:202)
+	at sun.rmi.server.UnicastRef.newCall(UnicastRef.java:341)
+	at sun.rmi.registry.RegistryImpl_Stub.lookup(Unknown Source)
+	at java.rmi.Naming.lookup(Naming.java:101)
+	at org.apache.jmeter.engine.ClientJMeterEngine.getEngine(ClientJMeterEngine.java:54)
+	at org.apache.jmeter.engine.ClientJMeterEngine.<init>(ClientJMeterEngine.java:67)
+	at org.apache.jmeter.gui.action.RemoteStart.doRemoteInit(RemoteStart.java:176)
+	at org.apache.jmeter.gui.action.RemoteStart.doAction(RemoteStart.java:87)
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:79)
+	at org.apache.jmeter.gui.action.ActionRouter.access$000(ActionRouter.java:40)
+	at org.apache.jmeter.gui.action.ActionRouter$1.run(ActionRouter.java:61)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:733)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:694)
+	at java.awt.EventQueue$3.run(EventQueue.java:692)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:703)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.net.ConnectException: Connexion refusée
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(RMIDirectSocketFactory.java:40)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(RMIMasterSocketFactory.java:147)
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:613)
+	... 26 more
+
